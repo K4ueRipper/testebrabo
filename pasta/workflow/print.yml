@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mostrar segredo
-        run: echo "A chave secreta é ${{ secrets.repo_muito_secreto }}"
+        run: echo "A chave secreta é ${{ secrets.REPO_MUITO_SECRETO }}"

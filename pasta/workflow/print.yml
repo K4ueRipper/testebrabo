@@ -1,4 +1,4 @@
-name: Demo Secrets
+o_name: Demo Secrets
 on:
   push:
     branches:
@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mostrar segredo
-        run: echo "A chave secreta é ${{ secrets.API_KEY }}"
+        run: echo "A chave secreta é ${{ secrets.repo_muito_secreto }}"
